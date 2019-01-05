@@ -29,3 +29,8 @@
 
 ![registr](https://user-images.githubusercontent.com/15848741/50726453-8b006880-1126-11e9-9a7c-2d134792cbe3.png)
 
+# Gold Coach
+
+![gold-coach](https://user-images.githubusercontent.com/15848741/50726465-bbe09d80-1126-11e9-901f-8495ab0310cd.png)
+
+
