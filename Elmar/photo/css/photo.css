@@ -1,0 +1,425 @@
+/*Header baslangici*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    position: relative;
+    z-index: 3;
+    height: 45px;
+    background-color: #424242 !important;
+}
+.menu{
+    position: relative;
+    bottom: 5px;
+}
+.menu li{
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 100%;
+    display: table-cell;
+}
+
+.menu li a{
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    height: 100%;
+    color: #999;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu li a:hover{
+    color: #f0423c;
+}
+
+.lang{
+    padding-right: 15px;
+    margin-right: 15px;
+}
+
+.lang li{
+    position: relative;
+    float: left;
+    margin-left: 3px;
+    height: 21px;
+    margin-top: 9px;
+    border-right: 1px solid #999;
+    font-size: 14px;
+}
+
+.lang li:last-child{
+    border-right: none;
+}
+
+.lang li a{
+    position: relative;
+    height: 100%;
+    color: #999;
+    padding: 0 10px;
+    text-decoration: none !important;
+}
+
+.lang li a:hover{
+    color: #f0423c;
+}
+
+.contact_list{
+    position: relative;
+    bottom: 15px;
+    display:-webkit-box;
+}
+
+.contact_list li{
+    position: relative;
+    float: left;
+    color: #999;
+    border-right: 1px solid #999;
+    padding: 0 15px;
+    height: 21px;
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.contact_list li:last-child{
+    border-right: 0;
+    padding-right: 0;
+}
+.contact_list li a{
+    color: #999;
+    text-decoration: none;
+}
+
+.logo{
+    width: 249px;
+    height: 50px;
+    display: block;
+  /*  background-image: url("../img/logo.png");*/
+   /* background-position: center;
+    background-repeat: no-repeat;*/
+}
+
+.menu_area{
+    position: relative;
+    padding-top: 25px;
+    display: block;
+    z-index: 1000;
+}
+
+.menu_nav{
+    text-align: left;
+    height: 45px;
+    line-height: 45px;
+}
+
+.active{
+    color: #f0423c!important;
+    font-weight: bold!important;
+}
+
+.active:hover{
+    color: #fff!important;
+}
+
+.menu_ul{
+    margin: 0 30px 0 0;
+}
+
+.menu_ul{
+    text-align: center;
+    position: relative;
+    bottom: 55px;
+}
+.menu_ul li{
+    display: inline;
+}
+
+.menu_ul li a{
+    clear: left;
+    font-size:14px;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #424242;
+    margin: 0 10px;
+    line-height: 45px;
+}
+
+.menu_ul li a:hover{
+    color:#fff;
+    text-decoration: none;
+    background-color: #f0423c;
+
+}
+
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 45px;
+    display: none;
+    width:26px;
+    float:left;
+}
+
+#toggle{
+    display: none;
+}
+
+
+
+.slider{
+    margin-top: -120px;
+
+}
+
+
+/*Header sonu*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+    height: 320px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+/*Footer baslangici*/
+
+.footer{
+    background-color: #f7f7f7;
+    position: relative;
+    top: 15em;
+}
+
+.footer_top_line{
+    border-bottom: 2px solid#f0423c;
+}
+.footer_logo{
+    margin-top: 30px;
+}
+.go_top{
+    float: right;
+    border-radius: 0;
+    color: #fff;
+    background-color: #f0423c;
+    transition: all 500ms;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.go_top:hover{
+    background-color: #424242;
+    color:#fff;
+}
+
+.footer_section{
+    padding-right: 50px;
+}
+
+.footer_section_3{
+    padding-right: 0;
+    padding-left: 50px;
+}
+
+
+.footer_txt{
+    font-size: 14px;
+    color:#666;
+    margin-top:20px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+
+.footer_social_list{
+    margin-top: 15px;
+}
+
+.footer_social_list li{
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e5e5e5;
+    margin-right: 10px;
+    display: table;
+}
+
+.footer_social_list li a{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: #999;
+}
+
+.footer_social_list li a:hover{
+    border-color: #f0423c;
+}
+
+.footer_social_list li:hover a{
+    color: #fff;
+    background-color: #f0423c;
+}
+
+.footer_section_title{
+    position: relative;
+    font-size: 20px;
+    color: #434343;
+    font-weight: bold;
+    height: 35px;
+    margin-top: 35px;
+    left: 30px;
+}
+
+.footer_section_title:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #f0423c;
+    content: '';
+}
+
+.footer_section_title_2{
+    position: relative;
+    font-size: 20px;
+    color: #434343;
+    font-weight: bold;
+    height: 35px;
+    margin-top: 35px;
+    left: 0px;
+}
+
+.footer_section_title_2:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #f0423c;
+    content: '';
+}
+.footer_menu_list li{
+    position: relative;
+    float: left;
+    left: 22px;
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 10px;
+}
+
+.footer_menu_list li:last-child{
+    border: 0;
+}
+
+.footer_menu_list li a{
+    position: relative;
+    float: left;
+    color: #666;
+    line-height: 35px;
+    text-decoration: none!important;
+    font-size: 14px;
+}
+
+.footer_menu_list li a:hover{
+    color: #f0423c;
+}
+
+.footer_menu_list li a .fa{
+    margin-right: 15px;
+}
+
+.contact_input{
+    border-radius: 0;
+    height: 40px;
+}
+
+.contact_textarea{
+    resize: none;
+    height: 50px;
+}
+
+.footer_in{
+    position: relative;
+    top: 16em;
+    height: 50px;
+    border-bottom: none;
+    background-color: #434343;
+}
+
+.footer_top{
+    margin-top: 110px;
+    background-color: #f7f7f7;
+}
+
+p{
+    position: relative;
+    margin-top: 25px;
+    line-height: 6px;
+    font-size: 12px;
+    color: #999;
+
+}
+
+.footer_menu{
+    position: relative;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.footer_menu li{
+    position: relative;
+    float: left;
+    margin: 0 3px;
+}
+
+.footer_menu li a{
+    position: relative;
+    line-height: 6px;
+    font-size: 12px;
+    color: #999;
+    font-weight: bold;
+}
+
+.footer_menu li a:hover{
+    color: #f0423c;
+}
+
+.page{
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+/*Footer sonu*/

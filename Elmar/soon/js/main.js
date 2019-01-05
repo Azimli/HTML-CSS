@@ -1,0 +1,37 @@
+$(document).ready(function () {
+    $("#qutular").countdown('2019/06/01', function (event) {
+        var $this=  $(this).html(event.strftime(''
+            + '<li>'
+            + ' <div class="qutu_num_box">'
+            + ' <span class="qutu_num qutu_in">%m  <span class="qutu_line"></span></span>'
+            + '  <span class="qutu_txt qutu_in">MONTHS</span>'
+            + ' </div>'
+            + ' </li>'
+            + '<li>'
+            + ' <div class="qutu_num_box">'
+            + ' <span class="qutu_num qutu_in">%d  <span class="qutu_line"></span></span>'
+            + '  <span class="qutu_txt qutu_in">DAYS</span>'
+            + ' </div>'
+            + ' </li>'
+            + '<li>'
+            + ' <div class="qutu_num_box">'
+            + ' <span class="qutu_num qutu_in">%H  <span class="qutu_line"></span></span>'
+            + '  <span class="qutu_txt qutu_in">HOURS</span>'
+            + ' </div>'
+            + ' </li>'
+            + '<li>'
+            + ' <div class="qutu_num_box">'
+            + ' <span class="qutu_num qutu_in">%M  <span class="qutu_line"></span></span>'
+            + '  <span class="qutu_txt qutu_in">MINUTES</span>'
+            + ' </div>'
+            + ' </li>'
+            + '<li>'
+            + ' <div class="qutu_num_box">'
+            + ' <span class="qutu_num qutu_in">%S  <span class="qutu_line"></span></span>'
+            + '  <span class="qutu_txt qutu_in">SECONDS</span>'
+            + ' </div>'
+            + ' </li>'
+        ));
+    });
+
+});

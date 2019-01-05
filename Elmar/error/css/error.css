@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.header {
+    position: relative;
+    z-index: 3;
+    height: 45px;
+    background-color: #424242 !important;
+}
+.menu{
+    position: relative;
+    bottom: 5px;
+}
+.menu li{
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 100%;
+    display: table-cell;
+}
+
+.menu li a{
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    height: 100%;
+    color: #999;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu li a:hover{
+    color: #f0423c;
+}
+
+.lang{
+    padding-right: 15px;
+    margin-right: 15px;
+}
+
+.lang li{
+    position: relative;
+    float: left;
+    margin-left: 3px;
+    height: 21px;
+    margin-top: 9px;
+    border-right: 1px solid #999;
+    font-size: 14px;
+}
+
+.lang li:last-child{
+    border-right: none;
+}
+
+.lang li a{
+    position: relative;
+    height: 100%;
+    color: #999;
+    padding: 0 10px;
+    text-decoration: none !important;
+}
+
+.lang li a:hover{
+    color: #f0423c;
+}
+
+.contact_list{
+    position: relative;
+    bottom: 15px;
+    display:-webkit-box;
+}
+
+.contact_list li{
+    position: relative;
+    float: left;
+    color: #999;
+    border-right: 1px solid #999;
+    padding: 0 15px;
+    height: 21px;
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.contact_list li:last-child{
+    border-right: 0;
+    padding-right: 0;
+}
+.contact_list li a{
+    color: #999;
+    text-decoration: none;
+}
+
+.logo{
+    width: 249px;
+    height: 50px;
+    display: block;
+    background-image: url("../img/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu_area{
+    position: relative;
+    padding-top: 25px;
+    display: block;
+    z-index: 1000;
+}
+
+.menu_nav{
+    text-align: left;
+    height: 45px;
+    line-height: 45px;
+}
+
+.active{
+    color: #f0423c!important;
+    font-weight: bold!important;
+}
+
+.active:hover{
+    color: #fff!important;
+}
+
+.menu_ul{
+    margin: 0 30px 0 0;
+}
+
+.menu_ul{
+    text-align: center;
+    position: relative;
+    bottom: 55px;
+}
+.menu_ul li{
+    display: inline;
+}
+
+.menu_ul li a{
+    clear: left;
+    font-size:14px;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #424242;
+    margin: 0 10px;
+    line-height: 45px;
+}
+
+.menu_ul li a:hover{
+    color:#fff;
+    text-decoration: none;
+    background-color: #f0423c;
+
+}
+
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 45px;
+    display: none;
+    width:26px;
+    float:left;
+}
+
+#toggle{
+    display: none;
+}
+
+/*Error style baslangici*/
+
+.background_1{
+    background-image: url("../img/background_1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 150px;
+}
+
+@font-face {
+    font-family:Myriad_Pro;
+    src: url("../fonts/8141.otf");
+}
+
+@font-face {
+    font-family: Exo_bold;
+    src: url("../fonts/Exo-Bold.otf");
+}
+.txt_error{
+    font-size: 20px;
+    color: #424242;
+    font-weight: bold;
+    font-family: Myriad_Pro;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.txt_error_2{
+    font-family: Lato "Lithos Pro Regular", sans-serif;
+    color: #272727;
+    font-size: 14px;
+    text-align: center;
+}
+.txt_error_2 span{
+    color: #f0423c;
+}
+.error{
+    position: relative;
+    display: table;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 1;
+}
+.error_img{
+
+}
+
+.rqm_1{
+    font-family: Exo_bold;
+    font-size: 160.45px;
+    left: -20px;
+    color: #f0423c;
+    z-index: 2;
+    position:relative;
+    bottom: 200px;
+
+}
+
+.yazi_3{
+    font-family: Exo_bold;
+    font-size: 28px;
+    color: #424242;
+    text-align: center;
+}
+.son_yazi{
+    text-align: center!important;
+    position: relative;
+    bottom: 15em;
+}
+.son_yazi span{
+    font-family: Lato;
+    font-weight: normal;
+    color: #666;
+    font-size: 14px;
+
+
+}
+
+/*Error style sonu*/
+
+
+/*Footer baslangici*/
+
+
+/*Footer sonu*/
