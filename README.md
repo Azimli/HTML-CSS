@@ -19,3 +19,13 @@
 
 ![elaqe](https://user-images.githubusercontent.com/15848741/50726425-31983980-1126-11e9-85f5-29c75c8c3fd0.png)
 
+# Form
+
+1.Login
+
+![login](https://user-images.githubusercontent.com/15848741/50726448-78862f00-1126-11e9-8ce2-86c1ffbda313.png)
+
+2.Registr
+
+![registr](https://user-images.githubusercontent.com/15848741/50726453-8b006880-1126-11e9-9a7c-2d134792cbe3.png)
+
